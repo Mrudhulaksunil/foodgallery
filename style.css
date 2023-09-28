@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1{
+    background-color: rgba(194, 98, 98, 0.918);
+    color: black;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+nav{
+    background-color: rgb(194, 132, 132);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    display: flex;
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+nav ul li a:hover{
+    color: whitesmoke;
+}
+.banner{
+    height: 550px;
+    width: 1350px;
+}
+video{
+    height: 770px;
+    width:100% ;
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    text-align:center ;
+    background-color: rgb(202, 90, 90);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 500px; */
+
+}
+footer p a{
+    text-align: center;
+    margin: 10px;
+    padding: 100px;
+    display: flex;
+    text-decoration: none;
+
+}
+footer p a:hover{
+    color: rgb(1, 1, 34);
+}
+.row1{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 230px;
+    background-color: rgb(194, 132, 132);
+
+
+}
+.col img{
+    height: 200px;
+    width: 230px;
+    padding: 20px;
+}
+.row2{
+    background-color: rgb(194, 132, 132);
+
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.col{
+    height:350px;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(216, 148, 148);
+
+    margin: 10px;
+    padding: 10px;
+
+}
+.col1{
+    margin-left: 10px;
+}
+.col2{
+    margin-left: 10px;
+}
+h2,h3{
+    text-align: center;
+}
+button{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(223, 138, 152);
+    color: whitesmoke;
+    margin-bottom: 10px;
+    margin-left: 85px;
+}
+button:hover{
+    background-color: rgb(245, 120, 141);
+
+}
+
+
+/* media query */
+
+@media screen and (max-width:400px){
+    nav ul li a{
+        /* margin-bottom: 2px; */
+        /* margin: 5px; */
+    }
+    .banner{
+        height: 230px;
+        width:100%;
+    }
+    
+    video{
+        width: 100%;
+        height: 230px;
+    }
+    .row1{
+        display: flex;
+        flex-direction: column;
+        height: 1700px;
+        margin-bottom: 10px;
+        margin-top: 2px;
+        margin: 0px;
+    }
+    .row2{
+        display: flex;
+        flex-direction: column;
+        height: 1700px;
+        margin: 0px;
+    }
+    .col{
+        height: 350px;
+        width: 300px;
+        margin: 10px;
+        padding: 20px;
+    }
+    .col img{
+        padding: 20px;
+    }
+    .col button{
+        margin-left: 115px;
+    }
+        footer{
+            width:400px ;
+            height: 30px;
+            background-color: rgb(202, 90, 90);
+            /* align-items: center;
+            justify-content: center; */
+            padding: 0px;
+
+        
+        }
+        footer p a{
+            margin: 0px;
+            padding: 5px;
+            /* align-items: center;
+            justify-content: center; */
+        
+        }
+        footer p a:hover{
+            color: rgb(1, 1, 34);
+        }
+        
+    }
+
+
